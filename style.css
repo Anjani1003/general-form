@@ -1,0 +1,188 @@
+@media (min-width:1290px){
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(221, 220, 220);
+}
+
+
+.form{
+    
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    height: 700px;
+    border-style: groove;
+    border-radius: 2%;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12% 12% 12% 25% 12% 12%;
+
+  }
+  
+
+  h3{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 30px !important;
+    grid-area: 1/1/2/3;
+  }
+
+  .address{
+    grid-area: 4/1/5/3;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  
+
+  .row {
+    
+    
+    overflow: hidden;
+    padding: 10px;
+}
+.col {
+    float: left;
+    width: 50%
+}
+
+.row{
+    margin: 30px;
+}
+.last-row{
+    margin-bottom: 0px;
+    margin: 30px;
+    padding: 10px;
+}
+
+input{
+    margin: 6px;
+    margin-left: 0px;
+    height: 20px;
+}
+
+select {
+    width: 310px;
+    margin: 6px;
+    height: 24px;
+}
+
+#Address{
+    margin: 6px !important;
+    height: 100px !important; 
+    margin-left: 0px;
+}
+
+#date{width: 300px;
+    margin: 6px;
+    height: 24px; 
+    margin-left: 0px;
+}
+#file{width: 310px;
+    margin: 10px;
+    height: 24px; 
+    margin-left: 0px;
+}
+button{
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5%;
+  
+    
+    
+}
+.btn{
+    grid-area: 7/2/8/3;
+    text-align: right;
+}
+}
+
+@media only screen and (max-width:1290px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: rgb(221, 220, 220);
+    }
+    .form{
+        background-color: white;
+        margin: auto;
+        margin-top: 40px;
+        width: 50%;
+        height: 1000px !important;
+        border-style: groove;
+        border-radius: 2%;
+        padding: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns:100% ;
+        grid-template-rows: 10% 7% 7% 7% 7% 15% 7% 7% 7% 7% 10%;
+
+    }
+    h3{
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 30px !important;
+        grid-area: 1/1/2/2;
+      }
+      #Address{
+        margin: 6px !important;
+        height: 90px !important; 
+        margin-left: 0px;
+        width: 310px;
+      }
+      button{
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 5%;   
+    }
+    #file{width: 310px;
+        margin: 10px;
+        height: 24px; 
+        margin-left: 0px;
+    }
+    .btn{
+        
+        text-align: center;
+    }
+
+    select {
+        width: 311px;
+        margin: 6px;
+        height: 24px;
+        margin-left: 0px;
+    }
+    
+    #date{width: 304px;
+        margin: 6px;
+        height: 24px; 
+        margin-left: 0px;
+    }
+
+    input{
+        margin: 6px;
+        margin-left: 0px;
+        height: 20px;
+    }
+
+
+}
